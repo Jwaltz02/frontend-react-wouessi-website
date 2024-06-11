@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/frontend-react-wouessi-website/static/css/main.964fdded.css",
-    "main.js": "/frontend-react-wouessi-website/static/js/main.011f30c2.js",
+    "main.js": "/frontend-react-wouessi-website/static/js/main.65371011.js",
     "static/js/453.0e9e1ac0.chunk.js": "/frontend-react-wouessi-website/static/js/453.0e9e1ac0.chunk.js",
     "index.html": "/frontend-react-wouessi-website/index.html",
     "main.964fdded.css.map": "/frontend-react-wouessi-website/static/css/main.964fdded.css.map",
-    "main.011f30c2.js.map": "/frontend-react-wouessi-website/static/js/main.011f30c2.js.map",
+    "main.65371011.js.map": "/frontend-react-wouessi-website/static/js/main.65371011.js.map",
     "453.0e9e1ac0.chunk.js.map": "/frontend-react-wouessi-website/static/js/453.0e9e1ac0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.964fdded.css",
-    "static/js/main.011f30c2.js"
+    "static/js/main.65371011.js"
   ]
 }
