@@ -1,6 +1,6 @@
 import React from "react";
 import Backdrop from "../assets/homepage-backdrop.jpeg";
-import "../styles/ChooseUs.css";
+import "../styles/Home.css";
 
 function Home() {
   return (
