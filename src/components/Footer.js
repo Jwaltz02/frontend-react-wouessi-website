@@ -8,11 +8,15 @@ function Footer() {
       <footer className="w-full bg-primary-purple text-white px-3 sm:px-6 lg:px-12 py-5 text-start sm:text-center">
         <div className="w-full sm:flex items-center">
           <div className="sm:w-1/3 py-9 sm:pb-12 ">
-            <a href="index.html"><img src={logo} width="80px" height="auto" alt="logo"/></a>
+            <a href="index.html">
+              <img src={logo} width="80px" height="auto" alt="logo" />
+            </a>
             <p className="text-start">Get your business to the new heights</p>
           </div>
           <div className="sm:w-1/3 space-y-6">
-            <a href="mailto:info@wouessi.com" className="text-3xl font-bold">info@wouessi.com</a>
+            <a href="mailto:info@wouessi.com" className="text-3xl font-bold">
+              info@wouessi.com
+            </a>
             <p>140 Yonge street, suite 200 on m5c 1x6, Toronto</p>
           </div>
           <div className="sm:w-1/3 flex flex-col space-y-6">
@@ -26,17 +30,27 @@ function Footer() {
           </div>
           <div className="sm:w-1/2">
             <ul className="sm:flex justify-evenly sm:py-3">
-              <li className="py-2"><a href="#!">Home</a></li>
-              <li className="py-2"><a href="#!">Services</a></li>
-              <li className="py-2"><a href="#!">Pricing</a></li>
-              <li className="py-2"><a href="#!">Blog</a></li>
-              <li className="py-2"><a href="#!">Contact Us</a></li>
+              <li className="py-2">
+                <a href="#!">Home</a>
+              </li>
+              <li className="py-2">
+                <a href="#!">Services</a>
+              </li>
+              <li className="py-2">
+                <a href="#!">Pricing</a>
+              </li>
+              <li className="py-2">
+                <a href="#!">Blog</a>
+              </li>
+              <li className="py-2">
+                <a href="#!">Contact Us</a>
+              </li>
             </ul>
           </div>
         </div>
       </footer>
     </div>
-  ) 
+  );
 }
 
 export default Footer;
