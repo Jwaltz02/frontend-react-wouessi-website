@@ -31,7 +31,7 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <button className="w-[260px] h-[4vw] scale-10 rounded-md border-2 border-white hover:bg-[#FF9900] hover:border-none hover:pl-[3px] text-[1.1vw]">
+        <button className="w-[260px] h-[4vw] rounded-md border-2 border-white hover:bg-[#FF9900] hover:border-transparent text-[1.1vw]">
           Let's Talk
         </button>
       </div>
