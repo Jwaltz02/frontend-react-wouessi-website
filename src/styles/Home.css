@@ -44,9 +44,10 @@
 .cls-3,.cls-4,.cls-5{stroke-width:2px;}
 .cls-4{stroke:#2eeaff;}
 .cls-5{stroke:#e3a2ff;}
-svg{
+.services-offered-line {
     position: absolute;
     top: 13%;
     left: 16%;
     width: 800px;
 }
+
