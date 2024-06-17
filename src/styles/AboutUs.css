@@ -1,0 +1,23 @@
+.bg-image {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+.bg-about{
+    background-image: url(../assets/about-page-title.jpg);
+    background-position: center 25%;
+}
+.overlay-purple {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(26, 11, 167, 0.479);
+}
+
+.bg-extra-box{
+    background-image: url(../assets/about-left-side-image.jpg);
+    background-position: center 38%;
+}
