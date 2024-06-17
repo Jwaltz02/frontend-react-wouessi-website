@@ -14,21 +14,31 @@ function Navbar() {
                 Home
               </li>
             </Link>
-            <li className="py-2 hover:text-[#FF9900] hover:overline text-[1.1vw]">
-              <a href="#!">About Us</a>
-            </li>
-            <li className="py-2 hover:text-[#FF9900] hover:overline text-[1.1vw]">
-              <a href="#!">Services</a>
-            </li>
-            <li className="py-2 hover:text-[#FF9900] hover:overline text-[1.1vw]">
-              <a href="#!">Pricing</a>
-            </li>
-            <li className="py-2 hover:text-[#FF9900] hover:overline text-[1.1vw]">
-              <a href="#!">Portfolio</a>
-            </li>
-            <li className="py-2 hover:text-[#FF9900] hover:overline text-[1.1vw]">
-              <a href="#!">Contact Us</a>
-            </li>
+            <Link to="/AboutUs">
+              <li className="py-2 hover:text-[#FF9900] hover:overline text-[1.1vw]">
+                About Us
+              </li>
+            </Link>
+            <Link to="/Services">
+              <li className="py-2 hover:text-[#FF9900] hover:overline text-[1.1vw]">
+                Services
+              </li>
+            </Link>
+            <Link to="/Pricing">
+              <li className="py-2 hover:text-[#FF9900] hover:overline text-[1.1vw]">
+                Pricing
+              </li>
+            </Link>
+            <Link to="/Portfolio">
+              <li className="py-2 hover:text-[#FF9900] hover:overline text-[1.1vw]">
+                Portfolio
+              </li>
+            </Link>
+            <Link to="/ContactUs">
+              <li className="py-2 hover:text-[#FF9900] hover:overline text-[1.1vw]">
+                Contact Us
+              </li>
+            </Link>
           </ul>
         </div>
         <button className="w-[260px] h-[4vw] rounded-md border-2 border-white hover:bg-[#FF9900] hover:border-transparent text-[1.1vw]">
