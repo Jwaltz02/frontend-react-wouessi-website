@@ -10,30 +10,14 @@
     background-position: center;
 }
 
-.overlay {
+.overlay-gray{
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(100, 100, 100, 0.479); /* Couleur et opacité de l'overlay */
+    background: rgba(100, 100, 100, 0.479);
 }
-
-.bg-primary-purple{
-    background-color: #2B00AC;
-}
-.bg-secondary-yellow{
-    background-color: #FF9900;
-}
-
-.text-primary-purple {
-    color: #2B00AC;
-}
-
-.text-secondary-yellow {
-    color: #FF9900;
-}
-
 
 /* SVG ================== */
 .cls-1,.cls-3,.cls-4,.cls-5{fill:none;}

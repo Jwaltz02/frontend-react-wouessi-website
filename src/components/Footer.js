@@ -5,7 +5,7 @@ import logo from "../assets/logo-footer.png";
 function Footer() {
   return (
     <div>
-      <footer className="w-full bg-primary-purple text-white px-3 sm:px-6 lg:px-12 py-5 text-start sm:text-center">
+      <footer className="w-full bg-[#2B00AC] text-white px-3 sm:px-6 lg:px-12 py-5 text-start sm:text-center">
         <div className="w-full sm:flex items-center">
           <div className="sm:w-1/3 py-9 sm:pb-12 ">
             <a href="index.html">
