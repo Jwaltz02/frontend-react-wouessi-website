@@ -20,7 +20,8 @@
 }
 
 /* SVG ================== */
-.cls-1,.cls-3,.cls-4,.cls-5{fill:none;}
+
+.services-offered-line .cls-1,.cls-3,.cls-4,.cls-5{fill:none;}
 .cls-1{stroke:#f9f2f2;stroke-width:3px;}
 .cls-1,.cls-2,.cls-3,.cls-4,.cls-5{stroke-miterlimit:10;}
 .cls-2{fill:#fff;stroke:#000;stroke-width:5px;}
@@ -33,5 +34,20 @@
     top: 13%;
     left: 16%;
     width: 800px;
+}
+
+.button-decoration-left .cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:4px;}
+.button-decoration-left{
+    position: absolute;
+    left: 41%;
+    top: 67%;
+    width: 30px;
+}
+.button-decoration-right .cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:4px;}
+.button-decoration-right{
+    position: absolute;
+    right: 41%;
+    bottom: 10%;
+    width: 30px;
 }
 

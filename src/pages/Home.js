@@ -57,10 +57,10 @@ function Home() {
         <div className="text-start px-3 sm:px-6 lg:px-36 gap-12 py-20">
           <div className="md:flex items-center">
             <div className="lg:w-3/4 capitalize space-y-6">
-              <p className="font-bold text-primary-purple">why choose us</p>
+              <p className="font-bold text-[#2B00AC]">why choose us</p>
               <h1 className="capitalize text-4xl font-bold">
                 empowering businesses with{" "}
-                <span className="text-secondary-yellow">innovative</span>
+                <span className="text-[#FF9900]">innovative</span>
                 digital solutions
               </h1>
             </div>
@@ -79,14 +79,14 @@ function Home() {
               </div>
             </div>
             <div className="sm:w-full h-80 mt-4 bg-image bg-how-we-work rounded-xl">
-              <div className="overlay rounded-xl">
+              <div className="overlay-gray rounded-xl">
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                   <p className="text-center uppercase text-4xl font-semibold">
                     how we work
                   </p>
                 </div>
                 <a href="#!">
-                  <div className="absolute -bottom-5 -right-5 rounded-full w-28 h-28 bg-secondary-yellow z-2 border-5 border-t-8 border-b-8 border-l-8 border-r-8 border-white">
+                  <div className="absolute -bottom-5 -right-5 rounded-full w-28 h-28 bg-[#FF9900] z-2 border-5 border-t-8 border-b-8 border-l-8 border-r-8 border-white">
                     <i className="fa-solid fa-play text-gray-900 text-2xl absolute bottom-9 right-10"></i>
                   </div>
                 </a>
@@ -94,14 +94,14 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="bg-primary-purple text-start text-white px-3 sm:px-6 lg:px-36 gap-12 py-20 relative">
+        <div className="bg-[#2B00AC] text-start text-white px-3 sm:px-6 lg:px-36 gap-12 py-20 relative">
           <div className="lg:w-2/4 space-y-6 mb-4">
             <h3 className="text-4xl font-bold">
               Explore what services we're offering
             </h3>
             <div className="w-1/6 border border-gray-400"></div>
           </div>
-          <p className="hidden lg:block">
+          <p className="hidden lg:block bg-decoration">
             <svg
               className="services-offered-line"
               xmlns="http://www.w3.org/2000/svg"
@@ -415,43 +415,81 @@ function Home() {
             </div>
             <div className="flex flex-col justify-between p-8 text-sm">
               <p className="capitalize">corpoorate business</p>
-              <p class="capitalize text-4xl text-center font-extrabold">call</p>
-              <ul class="p-10 list-disc">
-                <li class="py-4">
+              <p className="capitalize text-4xl text-center font-extrabold">call</p>
+              <ul className="p-10 list-disc">
+                <li className="py-4">
                   <p>Responsive Website - Unlimited pages</p>
                 </li>
-                <li class="py-4">
+                <li className="py-4">
                   <p>Social Media Management - Unlimited accounts / 3 months</p>
                 </li>
-                <li class="py-4">
+                <li className="py-4">
                   <p>Competitors Analysis - 5 competitors</p>
                 </li>
-                <li class="py-4">
+                <li className="py-4">
                   <p>Brochure Design- Unlimited Brochures</p>
                 </li>
-                <li class="py-4">
+                <li className="py-4">
                   <p>Logo Design - 1 logo</p>
                 </li>
-                <li class="py-4">
+                <li className="py-4">
                   <p>Paid Social Media - 1 month</p>
                 </li>
-                <li class="py-4">
+                <li className="py-4">
                   <p>Paid Search - 1 month</p>
                 </li>
-                <li class="py-4">
+                <li className="py-4">
                   <p>Email Marketing - 3 momth</p>
                 </li>
-                <li class="py-4">
+                <li className="py-4">
                   <p>SEO strategiy - Full Stack</p>
                 </li>
               </ul>
-              <div class="flex justify-center">
-                <button class="w-[11vw] h-[4vw] rounded-md bg-[#2B00AC] text-white font-bold text-[1.1vw]">
+              <div className="flex justify-center">
+                <button className="w-[11vw] h-[4vw] rounded-md bg-[#2B00AC] text-white font-bold text-[1.1vw]">
                   Join This Plan
                 </button>
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      <section>
+        <div className="text-center px-3 sm:px-6 lg:px-12 py-20 relative">
+          <div className="bg-[#FF9900] w-36 h-20 absolute top-[15%] left-[31%] -z-10"></div>
+          <p className="lg:w-2/3 mx-auto text-7xl font-bold">Ready for your Business <span className="text-[#FF9900]">success</span>?</p>
+          <p className="py-14">Contact us now and save 25%!</p>
+          <p>
+            <svg className="button-decoration-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.38 41.65">
+              <defs></defs>
+              <g id="Calque_2" data-name="Calque 2">
+                <g id="Calque_2-2" data-name="Calque 2">
+                  <line className="cls-1" x1="1.19" y1="6.02" x2="27.79" y2="25.71"/>
+                  <line className="cls-1" x1="37.91" y1="18.07" x2="38.38" y2="0.05"/>
+                  <line className="cls-1" x1="19.94" y1="39.66" x2="1.01" y2="37.59"/>
+                </g>
+              </g>
+            </svg>
+          </p>
+          <button className="w-[11vw] h-[4vw] rounded-md bg-[#FF9900] font-bold text-[1.1vw]">
+            Get Started
+          </button>
+          
+          <p>
+            <svg className="button-decoration-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.85 50.24">
+              <defs></defs>
+              <g id="Calque_2" data-name="Calque 2">
+                <g id="Calque_2-2" data-name="Calque 2">
+                  <line className="cls-1" x1="39.72" y1="38.99" x2="12.47" y2="20.22"/>
+                  <line className="cls-1" x1="16.41" y1="8.17" x2="33.3" y2="1.87"/>
+                  <line className="cls-1" x1="1.81" y1="32.16" x2="9.91" y2="49.39"/>
+                </g>
+              </g>
+            </svg>
+          </p>
+        </div>
+        <div>
+          <h2 className="text-end font-bold text-9xl text-[#2B00AC]">Digital Marketing</h2>
         </div>
       </section>
     </>
