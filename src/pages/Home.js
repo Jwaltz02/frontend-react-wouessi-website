@@ -3,19 +3,22 @@ import "../styles/Home.css";
 import Backdrop from "../assets/homepage-backdrop.jpeg";
 import customerPictures from "../assets/testimonials-customer.png";
 import WhatWeDo from "../assets/what-we-do-homepage.jpeg";
+import LeftSideImagePortfolio from "../assets/left-side-image-portfolio.jpeg";
+import RightSideImagePortfolio from "../assets/right-side-image-portfolio.png";
 import { FaChartLine } from "react-icons/fa";
 import { BsTools } from "react-icons/bs";
 import { FaTags } from "react-icons/fa";
 import { MdSupportAgent } from "react-icons/md";
 import { PiArrowCircleRightLight } from "react-icons/pi";
 import { PiArrowCircleLeftLight } from "react-icons/pi";
-import LeftSideImagePortfolio from "../assets/left-side-image-portfolio.jpeg";
-import RightSideImagePortfolio from "../assets/right-side-image-portfolio.png";
 import { BsArrowRightShort } from "react-icons/bs";
 
 function Home() {
   return (
     <>
+      <div className="flex justify-center bg-[#2B00AC]">
+        <div className="w-[92%] border-b-2 border-gray-500"></div>
+      </div>
       <div className="bg-[#2B00AC] flex justify-between pb-[5vw]">
         <div className="flex flex-col text-white text-left w-[33%] ml-[4%] pt-[5vw] gap-y-[20px]">
           <p className="text-[1vw]">Digital Marketing Agency</p>
@@ -415,7 +418,9 @@ function Home() {
             </div>
             <div className="flex flex-col justify-between p-8 text-sm">
               <p className="capitalize">corpoorate business</p>
-              <p className="capitalize text-4xl text-center font-extrabold">call</p>
+              <p className="capitalize text-4xl text-center font-extrabold">
+                call
+              </p>
               <ul className="p-10 list-disc">
                 <li className="py-4">
                   <p>Responsive Website - Unlimited pages</p>
@@ -457,16 +462,40 @@ function Home() {
       <section>
         <div className="text-center px-3 sm:px-6 lg:px-12 py-20 relative">
           <div className="bg-[#FF9900] w-36 h-20 absolute top-[15%] left-[31%] -z-10"></div>
-          <p className="lg:w-2/3 mx-auto text-7xl font-bold">Ready for your Business <span className="text-[#FF9900]">success</span>?</p>
+          <p className="lg:w-2/3 mx-auto text-7xl font-bold">
+            Ready for your Business{" "}
+            <span className="text-[#FF9900]">success</span>?
+          </p>
           <p className="py-14">Contact us now and save 25%!</p>
           <p>
-            <svg className="button-decoration-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.38 41.65">
+            <svg
+              className="button-decoration-left"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 40.38 41.65">
               <defs></defs>
               <g id="Calque_2" data-name="Calque 2">
                 <g id="Calque_2-2" data-name="Calque 2">
-                  <line className="cls-1" x1="1.19" y1="6.02" x2="27.79" y2="25.71"/>
-                  <line className="cls-1" x1="37.91" y1="18.07" x2="38.38" y2="0.05"/>
-                  <line className="cls-1" x1="19.94" y1="39.66" x2="1.01" y2="37.59"/>
+                  <line
+                    className="cls-1"
+                    x1="1.19"
+                    y1="6.02"
+                    x2="27.79"
+                    y2="25.71"
+                  />
+                  <line
+                    className="cls-1"
+                    x1="37.91"
+                    y1="18.07"
+                    x2="38.38"
+                    y2="0.05"
+                  />
+                  <line
+                    className="cls-1"
+                    x1="19.94"
+                    y1="39.66"
+                    x2="1.01"
+                    y2="37.59"
+                  />
                 </g>
               </g>
             </svg>
@@ -474,22 +503,45 @@ function Home() {
           <button className="w-[11vw] h-[4vw] rounded-md bg-[#FF9900] font-bold text-[1.1vw]">
             Get Started
           </button>
-          
+
           <p>
-            <svg className="button-decoration-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.85 50.24">
+            <svg
+              className="button-decoration-right"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 40.85 50.24">
               <defs></defs>
               <g id="Calque_2" data-name="Calque 2">
                 <g id="Calque_2-2" data-name="Calque 2">
-                  <line className="cls-1" x1="39.72" y1="38.99" x2="12.47" y2="20.22"/>
-                  <line className="cls-1" x1="16.41" y1="8.17" x2="33.3" y2="1.87"/>
-                  <line className="cls-1" x1="1.81" y1="32.16" x2="9.91" y2="49.39"/>
+                  <line
+                    className="cls-1"
+                    x1="39.72"
+                    y1="38.99"
+                    x2="12.47"
+                    y2="20.22"
+                  />
+                  <line
+                    className="cls-1"
+                    x1="16.41"
+                    y1="8.17"
+                    x2="33.3"
+                    y2="1.87"
+                  />
+                  <line
+                    className="cls-1"
+                    x1="1.81"
+                    y1="32.16"
+                    x2="9.91"
+                    y2="49.39"
+                  />
                 </g>
               </g>
             </svg>
           </p>
         </div>
         <div>
-          <h2 className="text-end font-bold text-9xl text-[#2B00AC]">Digital Marketing</h2>
+          <h2 className="text-end font-bold text-9xl text-[#2B00AC]">
+            Digital Marketing
+          </h2>
         </div>
       </section>
     </>
