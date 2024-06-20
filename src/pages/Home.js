@@ -461,7 +461,7 @@ function Home() {
       </section>
       <section>
         <div className="text-center px-3 sm:px-6 lg:px-12 py-20 relative">
-          <div className="bg-[#FF9900] w-36 h-20 absolute top-[15%] left-[31%] -z-10"></div>
+          <div className="bg-[#FF9900] w-36 h-20 absolute top-[15%] left-[22%] -z-10"></div>
           <p className="lg:w-2/3 mx-auto text-7xl font-bold">
             Ready for your Business{" "}
             <span className="text-[#FF9900]">success</span>?
@@ -539,7 +539,7 @@ function Home() {
           </p>
         </div>
         <div>
-          <h2 className="text-end font-bold text-9xl text-[#2B00AC]">
+          <h2 className="text-end font-bold text-9xl text-[#2B00AC] mb-6">
             Digital Marketing
           </h2>
         </div>
