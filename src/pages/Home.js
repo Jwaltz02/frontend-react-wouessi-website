@@ -13,9 +13,12 @@ import { PiArrowCircleRightLight } from "react-icons/pi";
 import { PiArrowCircleLeftLight } from "react-icons/pi";
 import { BsArrowRightShort } from "react-icons/bs";
 
+import { animate, motion } from "framer-motion";
+import { useInView } from "framer-motion";
+
 function Home() {
   return (
-    <>
+    <div className="overflow-hidden">
       <div className="flex justify-center bg-[#2B00AC]">
         <div className="w-[92%] border-b-2 border-gray-500"></div>
       </div>
@@ -460,7 +463,7 @@ function Home() {
         </div>
       </section>
       <section>
-        <div className="text-center px-3 sm:px-6 lg:px-12 py-20 relative">
+        <div className="text-center px-3 sm:px-6 lg:px-12 py-20 relative bg-[#F4F4F4]">
           <div className="bg-[#FF9900] w-36 h-20 absolute top-[15%] left-[22%] -z-10"></div>
           <p className="lg:w-2/3 mx-auto text-7xl font-bold">
             Ready for your Business{" "}
@@ -538,13 +541,25 @@ function Home() {
             </svg>
           </p>
         </div>
-        <div>
-          <h2 className="text-end font-bold text-9xl text-[#2B00AC] mb-6">
-            Digital Marketing
-          </h2>
-        </div>
       </section>
-    </>
+      <section>
+        <motion.div
+          className="text-end font-bold text-[10vw] text-[#2B00AC] mb-4 mt-4 flex"
+          initial={{ x: "100%" }}
+          animate={{ x: ["-90%", "0%", "-90%"] }}
+          transition={{
+            repeat: Infinity,
+            type: "tween",
+            duration: 20,
+            repeatType: "loop",
+            ease: "linear",
+          }}>
+          Digital<span className="text-[#FF9900]"> - </span>Design
+          <span className="text-[#FF9900]"> - </span>Development
+          <span className="text-[#FF9900]"> - </span>Technology
+        </motion.div>
+      </section>
+    </div>
   );
 }
 

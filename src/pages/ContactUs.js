@@ -15,7 +15,7 @@ function ContactUs() {
     <div className="pb-[5vw]">
       <div className="bg-[#F4F4F4] pb-[6vw]">
         <HeroBanner title={"Contact"} image={ContactBackdrop} />
-        <h2 className="text-[1.8vw] font-bold text-[#2B00AC]">
+        <h2 className="text-[1.8vw] font-bold text-[#2B00AC] mt-[5vw]">
           \ Get In Touch \
         </h2>
         <h1 className="text-[#0E1F51] text-[3vw] font-bold mt-[-0.5vw] mb-[3vw]">
