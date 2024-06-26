@@ -1,15 +1,34 @@
 {
   "files": {
-    "main.css": "/frontend-react-wouessi-website/static/css/main.964fdded.css",
-    "main.js": "/frontend-react-wouessi-website/static/js/main.65371011.js",
-    "static/js/453.0e9e1ac0.chunk.js": "/frontend-react-wouessi-website/static/js/453.0e9e1ac0.chunk.js",
-    "index.html": "/frontend-react-wouessi-website/index.html",
-    "main.964fdded.css.map": "/frontend-react-wouessi-website/static/css/main.964fdded.css.map",
-    "main.65371011.js.map": "/frontend-react-wouessi-website/static/js/main.65371011.js.map",
-    "453.0e9e1ac0.chunk.js.map": "/frontend-react-wouessi-website/static/js/453.0e9e1ac0.chunk.js.map"
+    "main.css": "/frontend-react-wouessi-website/Home/static/css/main.e123e171.css",
+    "main.js": "/frontend-react-wouessi-website/Home/static/js/main.be0e079a.js",
+    "static/js/453.0e9e1ac0.chunk.js": "/frontend-react-wouessi-website/Home/static/js/453.0e9e1ac0.chunk.js",
+    "static/media/all-tab-image4.png": "/frontend-react-wouessi-website/Home/static/media/all-tab-image4.02efeaed355e245c3701.png",
+    "static/media/pricing-page-backdrop.jpg": "/frontend-react-wouessi-website/Home/static/media/pricing-page-backdrop.8085a4cef4c213e689b1.jpg",
+    "static/media/portfolio-backdrop.jpeg": "/frontend-react-wouessi-website/Home/static/media/portfolio-backdrop.91f9b0c2179f916abf44.jpeg",
+    "static/media/all-tab-image2.png": "/frontend-react-wouessi-website/Home/static/media/all-tab-image2.d7342513b47ef2f7198c.png",
+    "static/media/all-tab-image1.png": "/frontend-react-wouessi-website/Home/static/media/all-tab-image1.8d2160d89de5f49f2ce0.png",
+    "static/media/service-page-backdrop.jpg": "/frontend-react-wouessi-website/Home/static/media/service-page-backdrop.2e93b7f13e05d0be4c1a.jpg",
+    "static/media/contact-backdrop.jpeg": "/frontend-react-wouessi-website/Home/static/media/contact-backdrop.bb8cc62fac12bf04fb36.jpeg",
+    "static/media/right-side-image-portfolio.png": "/frontend-react-wouessi-website/Home/static/media/right-side-image-portfolio.2031505a690106678617.png",
+    "static/media/about-page-backdrop.jpeg": "/frontend-react-wouessi-website/Home/static/media/about-page-backdrop.00a6ff339f6010f8e010.jpeg",
+    "static/media/logo-footer.png": "/frontend-react-wouessi-website/Home/static/media/logo-footer.f8da5795a65a32504f86.png",
+    "static/media/young-afro-people-working-in-an-office.png": "/frontend-react-wouessi-website/Home/static/media/young-afro-people-working-in-an-office.4fbee36de1c969d5c040.png",
+    "static/media/about-left-side-image.jpg": "/frontend-react-wouessi-website/Home/static/media/about-left-side-image.716b3fec335c65a34a38.jpg",
+    "static/media/homepage-backdrop.jpeg": "/frontend-react-wouessi-website/Home/static/media/homepage-backdrop.a9389b7dd68294342090.jpeg",
+    "static/media/left-side-image-portfolio.jpeg": "/frontend-react-wouessi-website/Home/static/media/left-side-image-portfolio.5f6b5abc43da2468b8ee.jpeg",
+    "static/media/what-we-do-services-page.jpg": "/frontend-react-wouessi-website/Home/static/media/what-we-do-services-page.67e55f26fc7e6c9e2677.jpg",
+    "static/media/what-we-do-homepage.jpeg": "/frontend-react-wouessi-website/Home/static/media/what-we-do-homepage.82e939c8934d2c82615e.jpeg",
+    "static/media/logo-navbar.jpeg": "/frontend-react-wouessi-website/Home/static/media/logo-navbar.e741c4944d0ef89417fd.jpeg",
+    "static/media/team-1-picture.png": "/frontend-react-wouessi-website/Home/static/media/team-1-picture.b113718f788e19d5ee82.png",
+    "static/media/testimonials-customer.png": "/frontend-react-wouessi-website/Home/static/media/testimonials-customer.c42e38afbe1185c5a066.png",
+    "index.html": "/frontend-react-wouessi-website/Home/index.html",
+    "main.e123e171.css.map": "/frontend-react-wouessi-website/Home/static/css/main.e123e171.css.map",
+    "main.be0e079a.js.map": "/frontend-react-wouessi-website/Home/static/js/main.be0e079a.js.map",
+    "453.0e9e1ac0.chunk.js.map": "/frontend-react-wouessi-website/Home/static/js/453.0e9e1ac0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.964fdded.css",
-    "static/js/main.65371011.js"
+    "static/css/main.e123e171.css",
+    "static/js/main.be0e079a.js"
   ]
 }
