@@ -348,8 +348,8 @@ function Home() {
               Yearly
             </button>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 mt-16">
-            <div className="flex flex-col justify-between p-8 text-sm">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 mt-16 gap-x-[3vw]">
+            <div className="flex flex-col justify-between p-8 text-sm rounded-md border border-gray-300">
               <p className="capitalize">small business</p>
               <p className="text-4xl text-center font-extrabold mb-20">
                 $2,000 USD
@@ -419,7 +419,7 @@ function Home() {
                 </button>
               </div>
             </div>
-            <div className="flex flex-col justify-between p-8 text-sm">
+            <div className="flex flex-col justify-between p-8 text-sm rounded-md border border-gray-300">
               <p className="capitalize">corpoorate business</p>
               <p className="capitalize text-4xl text-center font-extrabold">
                 call
