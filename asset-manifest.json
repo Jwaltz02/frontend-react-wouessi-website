@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/frontend-react-wouessi-website/Home/static/css/main.e123e171.css",
-    "main.js": "/frontend-react-wouessi-website/Home/static/js/main.be0e079a.js",
+    "main.css": "/frontend-react-wouessi-website/Home/static/css/main.1d788db1.css",
+    "main.js": "/frontend-react-wouessi-website/Home/static/js/main.b2323fb3.js",
     "static/js/453.0e9e1ac0.chunk.js": "/frontend-react-wouessi-website/Home/static/js/453.0e9e1ac0.chunk.js",
     "static/media/all-tab-image4.png": "/frontend-react-wouessi-website/Home/static/media/all-tab-image4.02efeaed355e245c3701.png",
     "static/media/pricing-page-backdrop.jpg": "/frontend-react-wouessi-website/Home/static/media/pricing-page-backdrop.8085a4cef4c213e689b1.jpg",
@@ -23,12 +23,12 @@
     "static/media/team-1-picture.png": "/frontend-react-wouessi-website/Home/static/media/team-1-picture.b113718f788e19d5ee82.png",
     "static/media/testimonials-customer.png": "/frontend-react-wouessi-website/Home/static/media/testimonials-customer.c42e38afbe1185c5a066.png",
     "index.html": "/frontend-react-wouessi-website/Home/index.html",
-    "main.e123e171.css.map": "/frontend-react-wouessi-website/Home/static/css/main.e123e171.css.map",
-    "main.be0e079a.js.map": "/frontend-react-wouessi-website/Home/static/js/main.be0e079a.js.map",
+    "main.1d788db1.css.map": "/frontend-react-wouessi-website/Home/static/css/main.1d788db1.css.map",
+    "main.b2323fb3.js.map": "/frontend-react-wouessi-website/Home/static/js/main.b2323fb3.js.map",
     "453.0e9e1ac0.chunk.js.map": "/frontend-react-wouessi-website/Home/static/js/453.0e9e1ac0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e123e171.css",
-    "static/js/main.be0e079a.js"
+    "static/css/main.1d788db1.css",
+    "static/js/main.b2323fb3.js"
   ]
 }
